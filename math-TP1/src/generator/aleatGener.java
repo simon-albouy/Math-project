@@ -39,12 +39,13 @@ public class aleatGener
 		if(ensembleAleat.size() != 0)
 		{
 			System.out.print("Contenu de l'ensemble \n");
-		    Iterator<Double> itr = ensembleAleat.iterator();
-		    while (itr.hasNext()) {
-		      Double element = itr.next();
-		      System.out.print(element + " \n");
-		    }
-		    System.out.println();
+			Iterator<Double> itr = ensembleAleat.iterator();
+			while (itr.hasNext())
+			{
+				Double element = itr.next();
+				System.out.print(element + " \n");
+			}
+			System.out.println();
 		}
 	}
 }
