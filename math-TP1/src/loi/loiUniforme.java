@@ -27,7 +27,7 @@ public class loisUniforme {
 			double pas = i / 10.0;
 
 			testArray[i] = (int) ensembleUniforme.stream()
-					.filter(p -> p < (0.1 + pas))
+					.filter(p -> p <= (0.1 + pas))
 					.filter(p -> p > pas) 
 					.count();
 
